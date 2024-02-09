@@ -37,6 +37,9 @@ try:
 except:
     print('numpy     Unavailable. Install with "pip install numpy"')
     
+# Following installation of numpy library do this at the terminal prompt:
+# sudo apt-get install libopenblas-dev
+    
 try:
     import matplotlib
     print('matplotlib     Available')
