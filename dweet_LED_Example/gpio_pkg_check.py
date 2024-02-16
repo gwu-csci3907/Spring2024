@@ -32,9 +32,33 @@ try:
     print('RPi.GPIO     Available')
 except:
     print('RPi.GPIO     Unavailable. Install with "pip install RPi.GPIO"')
+    
+try:
+    import matplotlib
+    print('matplotlib     Available')
+except:
+    print('matplotlib     Unavailable. Install with "pip install matplotlib"')    
         
+try:
+    import numpy
+    print('numpy     Available')
+except:
+    print('numpy     Unavailable. Install with "pip install numpy"')
+
+try:
+    import yagmail
+    print('yagmail     Available')
+except:
+    print('yagmail     Unavailable. Install with "pip install yagmail"')
+
 try:
     import requests
     print('requests     Available')
 except:
-    print('requests     Unavailable. Install with "pip install RPi.GPIO"')        
+    print('requests     Unavailable. Install with "pip install requests"')
+    
+try:
+    import dweepy
+    print('dweepy     Available')
+except:
+    print('dweepy     Unavailable. Install with "pip install requests"')    

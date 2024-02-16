@@ -36,7 +36,7 @@ stamptime = date_created[11:19]
 
 tempC = this_dict['content'][str(data1)]
 
-tempF = (int(tempC)*(9/5))*32
+tempF = (int(tempC)*(9/5))+32
 
 humidity = this_dict['content'][str(data2)]
 
