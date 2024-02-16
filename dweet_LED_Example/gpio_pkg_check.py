@@ -38,6 +38,7 @@ try:
     print('matplotlib     Available')
 except:
     print('matplotlib     Unavailable. Install with "pip install matplotlib"')    
+# sudo apt-get install libopenblas-dev  
         
 try:
     import numpy
@@ -50,6 +51,7 @@ try:
     print('yagmail     Available')
 except:
     print('yagmail     Unavailable. Install with "pip install yagmail"')
+# sudo apt-get install libxml2-dev libxslt-dev  
 
 try:
     import requests
