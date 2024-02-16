@@ -20,6 +20,7 @@ try:
     print('GPIOZero   Available')
 except:
     print('GPIOZero   Unavailable. Install with "pip install gpiozero"')
+# sudo pigpiod  
 
 try:
     import pigpio
