@@ -16,7 +16,7 @@ import yagmail
    
 yag_mail = yagmail.SMTP(user='cs3907.edgelab@gmail.com', password='jxoy ousb tnxz pxsl', host='smtp.gmail.com')
   
-To= "lavanyachalla@gmail.com" # Use temp-mail.org for testing this code
+To= "kartik.bulusu@gmail.com" # Use temp-mail.org for testing this code
 Subject = "Welcome to CSCI 4907!!"
 Body = """
         Opening the doors to IoT and Edge Compute.
